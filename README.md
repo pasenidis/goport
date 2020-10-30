@@ -1,2 +1,3 @@
-# java-port-scan
-A port scanner written in Java.
+# GoPort 
+
+## The port scanner that works :eyes:
