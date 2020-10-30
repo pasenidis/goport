@@ -5,10 +5,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"net"
 	"os"
 	"sort"
 	"time"
+
+	"edpasenidis.tech/goport/internal"
 )
 
 func main() {
@@ -37,7 +38,7 @@ func main() {
 	var openports []int
 
 	for i := start - 1; i < cap(ports); i++ {
-		go worker(domain, ports, results)
+		go internal.Worker(domain, ports, results)
 	}
 
 	go func() {
@@ -76,18 +77,5 @@ func main() {
 				log.Fatal(err)
 			}
 		}
-	}
-}
-
-func worker(domain string, ports chan int, results chan int) {
-	for p := range ports {
-		address := fmt.Sprintf("%s:%d", domain, p)
-		conn, err := net.Dial("tcp", address)
-		if err != nil {
-			results <- 0
-			continue
-		}
-		conn.Close()
-		results <- p
 	}
 }
