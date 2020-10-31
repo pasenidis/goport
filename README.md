@@ -28,8 +28,8 @@ go build main.go
 Edward Pasenidis - @pasenidis
 [me@edpasenidis.tech](mailto:me@edpasenidis.tech)
 
-Nikos Ntiakakis - @ntiakakis
-[ntiakakik@gmail.com](mailto:ntiakakik@gmail,com)
+**Contributors**
+- Nikos Ntiakakis / [ntiakakik@gmail.com](mailto:ntiakakik@gmail,com)
 
 ### Software Stack
 - [Golang](https://golang.org/)
