@@ -25,7 +25,7 @@ go build main.go
 ```
 
 ### Contact
-Edward Pasenidis - @pasenidis
+Edward Pasenidis - [@pasenidis](https://github.com/pasenidis)
 [me@edpasenidis.tech](mailto:me@edpasenidis.tech)
 
 **Contributors**
