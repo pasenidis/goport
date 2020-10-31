@@ -16,3 +16,14 @@
 ### Contributors
 - [pasenidis](https://github.com/pasenidis)
 - [ntiakakis](https://github.com/ntiakakis)
+
+### Build
+Linux build variables
+`GOARCH=amd64`
+`GOOS=linux`
+```sh
+git clone https://github.com/pasenidis/goport
+cd goport
+go build main.go
+./main
+```
