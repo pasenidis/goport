@@ -30,3 +30,6 @@ Edward Pasenidis - @pasenidis
 
 Nikos Ntiakakis - @ntiakakis
 [ntiakakik@gmail.com](mailto:ntiakakik@gmail,com)
+
+### Software Stack
+- [Golang](https://golang.org/)
