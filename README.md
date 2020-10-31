@@ -1,4 +1,4 @@
-# GoPort 
+# GoPort
 
 ## The port scanner that works :eyes:
 
@@ -12,3 +12,7 @@
 - [ ] Vulnerability scanner
 - [ ] Service detector (e.g: SSH, Apache, e.t.c.)
 - [ ] OS detector
+
+### Contributors
+- [pasenidis](https://github.com/pasenidis)
+- [ntiakakis](https://github.com/ntiakakis)
