@@ -27,3 +27,10 @@ cd goport
 go build main.go
 ./main
 ```
+
+### Contact
+Edward Pasenidis - @pasenidis
+[me@edpasenidis.tech](mailto:me@edpasenidis.tech)
+
+Nikos Ntiakakis - @ntiakakis
+[ntiakakik@gmail.com](mailto:ntiakakik@gmail,com)
